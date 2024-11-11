@@ -25,11 +25,11 @@
   text-decoration: none;
 }
 
-.main-navigation__header-var {
+.main-navigation__header-nav {
   display: none;
 }
 
-.main-navigation__drawer-var {
+.main-navigation__drawer-nav {
   height: 100%;
 }
 
@@ -38,7 +38,7 @@
     display: none;
   }
 
-  .main-navigation__header-var {
+  .main-navigation__header-nav {
     display: block;
   }
 }
