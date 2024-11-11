@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/my-second/static/css/main.10812776.chunk.css",
-    "main.js": "/my-second/static/js/main.f712d020.chunk.js",
-    "main.js.map": "/my-second/static/js/main.f712d020.chunk.js.map",
-    "runtime-main.js": "/my-second/static/js/runtime-main.b887109c.js",
-    "runtime-main.js.map": "/my-second/static/js/runtime-main.b887109c.js.map",
-    "static/js/2.29c4125b.chunk.js": "/my-second/static/js/2.29c4125b.chunk.js",
-    "static/js/2.29c4125b.chunk.js.map": "/my-second/static/js/2.29c4125b.chunk.js.map",
-    "static/js/3.ef9bfbd4.chunk.js": "/my-second/static/js/3.ef9bfbd4.chunk.js",
-    "static/js/3.ef9bfbd4.chunk.js.map": "/my-second/static/js/3.ef9bfbd4.chunk.js.map",
+    "main.css": "/my-second/static/css/main.dc543a8b.chunk.css",
+    "main.js": "/my-second/static/js/main.61dacc83.chunk.js",
+    "main.js.map": "/my-second/static/js/main.61dacc83.chunk.js.map",
+    "runtime-main.js": "/my-second/static/js/runtime-main.c8051f52.js",
+    "runtime-main.js.map": "/my-second/static/js/runtime-main.c8051f52.js.map",
+    "static/js/2.345936c2.chunk.js": "/my-second/static/js/2.345936c2.chunk.js",
+    "static/js/2.345936c2.chunk.js.map": "/my-second/static/js/2.345936c2.chunk.js.map",
+    "static/js/3.b0032fba.chunk.js": "/my-second/static/js/3.b0032fba.chunk.js",
+    "static/js/3.b0032fba.chunk.js.map": "/my-second/static/js/3.b0032fba.chunk.js.map",
     "index.html": "/my-second/index.html",
-    "precache-manifest.b51da96dbb52cac856d39fbe03281091.js": "/my-second/precache-manifest.b51da96dbb52cac856d39fbe03281091.js",
+    "precache-manifest.a2f7f17e7a49588428c2c8c0e56031e6.js": "/my-second/precache-manifest.a2f7f17e7a49588428c2c8c0e56031e6.js",
     "service-worker.js": "/my-second/service-worker.js",
-    "static/css/main.10812776.chunk.css.map": "/my-second/static/css/main.10812776.chunk.css.map",
-    "static/js/2.29c4125b.chunk.js.LICENSE.txt": "/my-second/static/js/2.29c4125b.chunk.js.LICENSE.txt"
+    "static/css/main.dc543a8b.chunk.css.map": "/my-second/static/css/main.dc543a8b.chunk.css.map",
+    "static/js/2.345936c2.chunk.js.LICENSE.txt": "/my-second/static/js/2.345936c2.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.b887109c.js",
-    "static/js/2.29c4125b.chunk.js",
-    "static/css/main.10812776.chunk.css",
-    "static/js/main.f712d020.chunk.js"
+    "static/js/runtime-main.c8051f52.js",
+    "static/js/2.345936c2.chunk.js",
+    "static/css/main.dc543a8b.chunk.css",
+    "static/js/main.61dacc83.chunk.js"
   ]
 }
