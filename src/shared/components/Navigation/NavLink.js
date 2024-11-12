@@ -7,7 +7,7 @@ const NavLinks = (Props) => {
   return (
     <ul className="nav-links">
       <li>
-        <NavLink to="/">All USERS</NavLink>
+        <NavLink to="/users">All USERS</NavLink>
       </li>
       <li>
         <NavLink to="/u1/places">MY PLACES</NavLink>
