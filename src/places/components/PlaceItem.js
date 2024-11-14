@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Card from "../../shared/components/UIElements/Card";
 import Button from "../../shared/components/FormElements/Button";
 import Model from "../../shared/components/UIElements/Model";
+import MapComponent from "../../shared/components/UIElements/Map";
 import "./PlaceItem.css";
 
 const PlaceItem = (props) => {
@@ -20,7 +21,7 @@ const PlaceItem = (props) => {
         footer={<Button onClick={closeMapHandler}>CLOSE</Button>}
       >
         <div className="map-container">
-          <h2>THE MAP!</h2>
+          <MapComponent center={props.coordinates} zoom={16} />
         </div>
       </Model>
       <li className="place-item">

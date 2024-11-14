@@ -1,5 +1,6 @@
 import React from "react";
 import { BrowserRouter, Route, Routes, Navigate } from "react-router-dom";
+import "ol/ol.css";
 import Home from "./pages/Home";
 import Users from "./user/pages/Users";
 import UserPlaces from "./places/pages/UserPlaces";
