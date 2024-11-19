@@ -21,6 +21,30 @@ function App() {
     setIsLoggedIn(false);
   }, []);
 
+  let routes;
+  if (isLoggedIn) {
+    routes = (
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/users" element={<Users />} />
+        <Route path="/:userId/places" element={<UserPlaces />} />
+        <Route path="/places/new" element={<NewPlace />} />
+        <Route path="/places/:placeId" element={<UpdatePlace />} />
+        <Route path="*" element={<Navigate to="/" replace />} />
+      </Routes>
+    );
+  } else {
+    routes = (
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/users" element={<Users />} />
+        <Route path="/:userId/places" element={<UserPlaces />} />
+        <Route path="/auth" element={<Auth />} />
+        <Route path="*" element={<Navigate to="/auth" replace />} />
+      </Routes>
+    );
+  }
+
   return (
     <AuthContext.Provider
       value={{ isLoggedIn: isLoggedIn, login: login, logout: logout }}
@@ -29,18 +53,7 @@ function App() {
         future={{ v7_startTransition: true, v7_relativeSplatPath: true }}
       >
         <MainNavigation />
-        <main>
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/users" element={<Users />} />
-            <Route path="/:userId/places" element={<UserPlaces />} />
-            <Route path="/places/new" element={<NewPlace />} />
-            <Route path="/places/:placeId" element={<UpdatePlace />} />
-            <Route path="/auth" element={<Auth />} />
-            {/* Redirect to home page */}
-            <Route path="*" element={<Navigate to="/" replace />} />
-          </Routes>
-        </main>
+        <main>{routes}</main>
       </BrowserRouter>
     </AuthContext.Provider>
   );
