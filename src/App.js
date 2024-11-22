@@ -1,5 +1,10 @@
 import React, { useState, useCallback } from "react";
-import { BrowserRouter, Route, Routes, Navigate } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Route,
+  Routes,
+  Navigate,
+} from "react-router-dom";
 import "ol/ol.css";
 import Home from "./pages/Home";
 import Users from "./user/pages/Users";
@@ -49,12 +54,10 @@ function App() {
     <AuthContext.Provider
       value={{ isLoggedIn: isLoggedIn, login: login, logout: logout }}
     >
-      <BrowserRouter
-        future={{ v7_startTransition: true, v7_relativeSplatPath: true }}
-      >
+      <Router future={{ v7_startTransition: true, v7_relativeSplatPath: true }}>
         <MainNavigation />
         <main>{routes}</main>
-      </BrowserRouter>
+      </Router>
     </AuthContext.Provider>
   );
 }
